@@ -439,7 +439,7 @@
    CARTAS
    Cada carta es un sitio web que ya hiciste. Para agregar
    una carta nueva, copia un bloque { ... } y pégalo dentro
-   del arreglo (con una coma entre una carta y otra).
+   del arreglo. No necesitas tocar nada más del código.
 
    date  -> como quieras que se vea la fecha (texto libre)
    title -> el título de la carta
@@ -460,12 +460,14 @@
       date: "Te amo",
       title: "I love you",
       url: "https://mry29h4vdy-lang.github.io/i-love-you/"
-    },
+    }
     {
-      date: "Nuestro universo",
-      title: "Universo",
+      date: "nuestro universo",
+      title: "una carta para ti amor",
       url: "https://mry29h4vdy-lang.github.io/universo/"
     }
+
+  
   ];
 
 /* ====================== LÓGICA DEL CANDADO ====================== */
@@ -534,7 +536,3 @@
   closeBtn.addEventListener('click', closeLetter);
   overlay.addEventListener('click', (e) => { if(e.target === overlay) closeLetter(); });
   document.addEventListener('keydown', (e) => { if(e.key === 'Escape') closeLetter(); });
-</script>
-
-</body>
-</html>
