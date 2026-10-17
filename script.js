@@ -20,11 +20,6 @@ const letters = [
     title: "Aniversario de 9 meses",
     url: "https://mry29h4vdy-lang.github.io/aniversario-leida-junior/"
   },
-   {
-    date: "Te amo",
-    title: "Aniversario 10 meses",
-    url: "https://mry29h4vdy-lang.github.io/aniversario10meses/"
-  },
   {
     date: "Carta de amor",
     title: "Una carta de amor",
@@ -39,6 +34,16 @@ const letters = [
     date: "Nuestro universo",
     title: "Universo",
     url: "https://mry29h4vdy-lang.github.io/universo/"
+  },
+  {
+    date: "Nuestro universo",
+    title: "avion de amor",
+    url: "https://mry29h4vdy-lang.github.io/amor-de-aviones/"
+  },
+  {
+    date: "Te amo",
+    title: "Aniversario 10 meses",
+    url: "https://mry29h4vdy-lang.github.io/aniversario10meses/"
   }
 ];
 
